@@ -132,10 +132,10 @@
         
     }
     
-    // trick borrowed from jQuery so we don't have to use the 'new' keyword
+    // technique borrowed from jQuery so we don't have to use the 'new' keyword
     Greetr.init.prototype = Greetr.prototype;
     
-    // attach our Greetr to the global object, and provide a shorthand '$G' for ease our poor fingers
+    // attach our Greetr to the global object, and provide a shorthand '$G' for ease of use.
     global.Greetr = global.G$ = Greetr;
     
 }(window, jQuery));
