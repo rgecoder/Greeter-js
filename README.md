@@ -1,1 +1,1 @@
-# Greeter-js
+# Greetr-js
